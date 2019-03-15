@@ -1,0 +1,376 @@
+body  {
+    background-image: url("https://instagram.fbom8-1.fna.fbcdn.net/vp/aa55bea53b8e0c82f9946477186772e6/5C135B07/t51.2885-15/e35/20687937_1464525416956371_5678806428786098176_n.jpg");
+    background-color: #cccccc;
+}
+
+svg {
+  height: auto;
+  left: 50%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+svg g > g {
+  fill: transparent;
+}
+svg g > g > path {
+  fill: inherit;
+}
+svg g path {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 1;
+}
+
+#i {
+  -webkit-animation: i 1s forwards;
+          animation: i 1s forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#wish {
+  -webkit-animation: i 1s forwards;
+          animation: i 1s forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#dot {
+  -webkit-animation: i 1.2s forwards;
+          animation: i 1.2s forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#you {
+  -webkit-animation: i 1.2s forwards;
+          animation: i 1.2s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#a {
+  -webkit-animation: i 1s forwards;
+          animation: i 1s forwards;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#sweet1 {
+  -webkit-animation: i 1.3s forwards;
+          animation: i 1.3s forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#sweet2 {
+  -webkit-animation: i 1.3s forwards;
+          animation: i 1.3s forwards;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#cake {
+  -webkit-animation-delay: 3.1s;
+          animation-delay: 3.1s;
+  opacity: 1;
+  stroke-dasharray: 2000;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+#cake > * {
+  stroke: transparent;
+}
+#cake > #t1 {
+  -webkit-animation: fromTop .5s forwards 4.2s;
+          animation: fromTop .5s forwards 4.2s;
+  fill: #da1c5c;
+  opacity: 0;
+}
+#cake > #t2 {
+  -webkit-animation: cake .4s forwards 4.3s;
+          animation: cake .4s forwards 4.3s;
+  fill: #c29347;
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+#cake > #t3 {
+  -webkit-animation: cake .4s forwards 4.4s;
+          animation: cake .4s forwards 4.4s;
+  fill: #c29347;
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+#cake > #t4 {
+  -webkit-animation: cake .4s forwards 4.5s;
+          animation: cake .4s forwards 4.5s;
+  fill: #c29347;
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+#cake > #g1 {
+  -webkit-animation: fromTop .5s forwards 4.2s;
+          animation: fromTop .5s forwards 4.2s;
+  fill: #da1c5c;
+  opacity: 0;
+}
+#cake > #g2 {
+  -webkit-animation: fromTop .5s forwards 4s;
+          animation: fromTop .5s forwards 4s;
+  fill: #da1c5c;
+  opacity: 0;
+}
+#cake > #g3 {
+  -webkit-animation: fromTop .5s forwards 4.1s;
+          animation: fromTop .5s forwards 4.1s;
+  fill: #da1c5c;
+  opacity: 0;
+}
+#cake > #g4 {
+  -webkit-animation: fromTop .5s forwards 3.9s;
+          animation: fromTop .5s forwards 3.9s;
+  fill: #da1c5c;
+  opacity: 0;
+}
+#cake > #b1 {
+  -webkit-animation: fromBottom .5s forwards 3.5s;
+          animation: fromBottom .5s forwards 3.5s;
+  fill: #c29347;
+  opacity: 0;
+}
+#cake > #b2 {
+  -webkit-animation: fromBottom .5s forwards 3.6s;
+          animation: fromBottom .5s forwards 3.6s;
+  fill: #c29347;
+  opacity: 0;
+}
+#cake > #b3 {
+  -webkit-animation: fromBottom .5s forwards 3.7s;
+          animation: fromBottom .5s forwards 3.7s;
+  fill: #c29347;
+  opacity: 0;
+}
+#cake > #b4 {
+  -webkit-animation: fromBottom .5s forwards 3.8s;
+          animation: fromBottom .5s forwards 3.8s;
+  fill: #c29347;
+  opacity: 0;
+}
+
+#cherry {
+  -webkit-animation: outOfScreen 1s forwards 4.6s;
+          animation: outOfScreen 1s forwards 4.6s;
+  opacity: 0;
+}
+#cherry #tail {
+  fill: #040404;
+}
+#cherry path {
+  fill: #da1c5c;
+  stroke: transparent;
+}
+
+#birthday {
+  -webkit-animation: i 1.4s forwards;
+          animation: i 1.4s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+#sprinkle1, #sprinkle2 {
+  -webkit-animation: sprinkles 2.2s forwards;
+          animation: sprinkles 2.2s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  opacity: 0;
+  stroke-dasharray: 2000;
+}
+
+@-webkit-keyframes cake {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes cake {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes i {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: -2000;
+  }
+  80% {
+    fill: transparent;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: #121212;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes i {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: -2000;
+  }
+  80% {
+    fill: transparent;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: #121212;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes outOfScreen {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100vh) translateX(-100%);
+            transform: translateY(-100vh) translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%) translateX(-100%);
+            transform: translateY(0%) translateX(-100%);
+  }
+}
+@keyframes outOfScreen {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100vh) translateX(-100%);
+            transform: translateY(-100vh) translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%) translateX(-100%);
+            transform: translateY(0%) translateX(-100%);
+  }
+}
+@-webkit-keyframes fromTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@keyframes fromTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@-webkit-keyframes fromBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@-webkit-keyframes sprinkles {
+  0% {
+    stroke-dashoffset: -2000;
+    opacity: 1;
+  }
+  99% {
+    fill: transparent;
+    stroke: black;
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    fill: #c29347;
+    stroke: transparent;
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@keyframes sprinkles {
+  0% {
+    stroke-dashoffset: -2000;
+    opacity: 1;
+  }
+  99% {
+    fill: transparent;
+    stroke: black;
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    fill: #c29347;
+    stroke: transparent;
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
